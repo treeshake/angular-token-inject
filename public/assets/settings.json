@@ -1,0 +1,10 @@
+{
+  "welcome": {
+    "title": "Welcome to App!",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elementum lacus sed vulputate ornare. Nulla rutrum condimentum arcu nec ultr"
+  },
+  "footer": {
+    "createdBy": "John Doe",
+    "email": "john.doe@me.com"
+  }
+}

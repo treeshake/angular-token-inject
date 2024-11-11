@@ -1,0 +1,24 @@
+/* Ensure the body and html take up the full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make the main content area take up the remaining space */
+.main {
+  flex: 1;
+}
+
+/* Style the footer */
+.footer {
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
