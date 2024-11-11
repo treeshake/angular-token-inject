@@ -1,8 +1,8 @@
 <div class="content">
   <div class="main">
-    <h2>{{ (welcomeTitle$ | async) }}</h2>
-    <p>{{ (welcomeText$ | async) }}</p>
+    <h2>{{ (settings$ | async)?.welcomeTitle }}</h2>
+    <p>{{ (settings$ | async)?.welcomeText }}</p>
   </div>
   <div class="footer">
-  <small>Created by: {{ (createdBy$ | async) }} - {{ (email$ | async) }}</small>
+  <small>Created by: {{ (settings$ | async)?.createdBy }} - {{ (settings$ | async)?.email }}</small>
 </div>
