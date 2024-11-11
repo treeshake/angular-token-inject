@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description
 
-The goal of this app is to demostrate how data can be loaded once off during initialisation and available globally to any component.
+The goal of this app is to demostrate how data can be loaded during initialisation and available globally to any component.
 
-This example app uses Angular's `APP_INITIALIZER` to load in data once externally via a service via a HTTP client. It then uses Angular's `InjectionToken` so they can be made available globally to any component. Finally it uses `async pipe` to let Angular take care of the subscription / cleanup.
+This example app uses Angular's `APP_INITIALIZER` to load in data **once-only** externally via a service via a HTTP client. It then uses Angular's `InjectionToken` so they can be made available globally to any component. Finally it uses `async pipe` to let Angular take care of the subscription / cleanup.
 
 ## References
 - https://angular.dev/api/core/APP_INITIALIZER
