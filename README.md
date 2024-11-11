@@ -1,27 +1,23 @@
-# TokenInject
+# Angular Token Injection Example
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+
+## Description
+
+The goal of this app is to demostrate how data can be loaded during initialisation and available globally to any component.
+
+This example app uses Angular's `APP_INITIALIZER` to load in data **once-only** externally via a service via a HTTP client. It then uses Angular's `InjectionToken` so they can be made available globally to any component. Finally it uses `async pipe` to let Angular take care of the subscription / cleanup.
+
+## References
+- https://angular.dev/api/core/APP_INITIALIZER
+- https://angular.dev/api/core/InjectionToken
+- https://angular.dev/api/common/AsyncPipe
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## App
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img width="670" alt="image" src="https://github.com/user-attachments/assets/98e02fba-2310-448f-9284-3387ae8fc262">
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
