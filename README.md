@@ -9,9 +9,9 @@ The goal of this app is to demostrate how data can be loaded once off during ini
 This example app uses Angular's `APP_INITIALIZER` to load in data once externally via a service via a HTTP client. It then uses Angular's `InjectionToken` so they can be made available globally to any component. Finally it uses `async pipe` to let Angular take care of the subscription / cleanup.
 
 ## References
-https://angular.dev/api/core/APP_INITIALIZER
-https://angular.dev/api/core/InjectionToken
-https://angular.dev/api/common/AsyncPipe
+- https://angular.dev/api/core/APP_INITIALIZER
+- https://angular.dev/api/core/InjectionToken
+- https://angular.dev/api/common/AsyncPipe
 
 ## Development server
 
